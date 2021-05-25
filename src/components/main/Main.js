@@ -5,13 +5,9 @@ class Main extends Component {
         return(
             <div class="App_Container" style={{ position: "fixed", top :"9rem" , right: "45rem"}}>
                 <main class="Main">
-                    <h1>Soooooooooooome Heading</h1>
+                    <h1>おはようございます</h1>
                 </main>
             </div>
-        
-        
-        
-        
         );
     
     }

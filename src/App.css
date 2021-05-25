@@ -96,7 +96,7 @@ aside .listItem {
     border-left: 2px solid #234465;
     border-right: 2px solid #234465;
     margin-bottom: 11%;
-    height: 5vh;
+    height: 4vh;
     text-align: center;
 }
 
@@ -145,6 +145,9 @@ aside .listItem:hover {
     height: auto;
     /* border:1px solid blue; */
     margin-bottom: 5%;
+    position: fixed;
+    top: 10rem;
+    left: 17rem;
 }
 
 h1 {
@@ -173,12 +176,17 @@ h1 {
 /* Post Styles */
 
 .Post {
-    width: 100%;
+    width: 85%;
+    position: relative;
+    top: 15rem;
+    left: 18rem;
     height: auto;
     border: 1px solid #234465;
     margin-bottom: 3%;
     border-radius: 4px;
 }
+
+
 
 .description {
     word-wrap: break-word;
@@ -197,6 +205,9 @@ h1 {
     height: auto;
     text-align: right;
     margin-bottom: 0.5%;
+    position: relative;
+    top: 15rem;
+    left: 18rem;
 }
 
 .Post div span {
@@ -204,6 +215,9 @@ h1 {
     text-align: right;
     /* border:1px solid green; */
     padding-right: 1%;
+    position: relative;
+    top: 15rem;
+    left: 18rem;
 }
 
 .Post img {
@@ -218,7 +232,8 @@ h1 {
 
 .Footer {
     width: 100%;
-    height: 18vh;
+    height: 15vh;
+    top: fixed;
     background-color: #ffa000;
     color: #234465;
     border-top: 2px solid #234465;
@@ -230,5 +245,3 @@ h1 {
     text-align: center;
     font-weight: bold;;
 }
-
-/* Footer Styles */

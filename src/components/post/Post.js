@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class Post extends Component {
   render() {
-    const { id, content } = this.props.post;
+    const { content } = this.props.post;
 
     return (
       <div className="Posts" >
